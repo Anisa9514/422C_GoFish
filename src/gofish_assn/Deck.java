@@ -14,10 +14,12 @@ public class Deck {
 	final int NUM_CARDS = 52;  //for this kind of deck
 	
 	/**
-	 * Constructor: Creates a newly sorted deck
+	 * Creates a newly sorted deck
 	 */
 	public Deck() {
+
 		Suits[] suitArr = {Suits.CLUB,Suits.DIAMOND,Suits.HEART,Suits.SPADE};
+
 		for(int s = 0; s < 4; s++){
 			Suits curSuit = suitArr[s];
 			for(int i = Card.LOW_RANK; i <= Card.TOP_RANK; i++){
@@ -25,21 +27,24 @@ public class Deck {
 				deck.add(c);
 			}
 		}
+
 	}
 	
 	/**
 	 * Shuffles cards in deck
 	 */
 	public void shuffle() {
-		// Collections.shuffle(deck);
+
 		Random rn = new Random();
 		int randIndex;
 
 		for(int i = deck.size() - 1; i > 0; i--){
+			// Pick random card in remaining deck to swap
 			randIndex = rn.nextInt(i);
 			Card curCard = new Card(deck.get(i));
 			Card otherCard = new Card(deck.get(randIndex));
 
+			// Swap cards
 			deck.remove(i);
 			deck.add(i, otherCard);
 			deck.remove(randIndex);
@@ -49,6 +54,7 @@ public class Deck {
 	
 	/**
 	 * Prints the deck in order to console
+	 * For debugging purposes
 	 */
 	public void printDeck() {
 		for(int i = 0; i < deck.size(); i++){

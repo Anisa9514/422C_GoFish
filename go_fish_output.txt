@@ -1,254 +1,88 @@
 Go Fish Game starts. Deck is shuffled. Players draw cards:
 
-Anisa draws 2 of Clubs
+Anisa draws 8 of Diamonds
+Anisa draws 6 of Diamonds
 Anisa draws 10 of Hearts
-Anisa draws 7 of Clubs
-Anisa draws 7 of Hearts
-Anisa books the 7
-Anisa draws 6 of Clubs
-Anisa draws 9 of Diamonds
-Anisa draws 2 of Hearts
-Anisa books the 2
+Anisa draws 4 of Clubs
+Anisa draws 2 of Spades
+Anisa draws 4 of Spades
+Anisa books the 4
+Anisa draws Jack of Hearts
 
-Anisa currently has 2 books:
-7 of Clubs and 7 of Hearts
-2 of Clubs and 2 of Hearts
+Anisa currently has 1 books:
+4 of Clubs and 4 of Spades
 
 -------------------------------------
-Izzy draws 7 of Diamonds
-Izzy draws 10 of Clubs
+Izzy draws 4 of Hearts
+Izzy draws 9 of Spades
+Izzy draws Jack of Clubs
+Izzy draws 7 of Clubs
+Izzy draws Queen of Diamonds
+Izzy draws 10 of Diamonds
 Izzy draws Jack of Diamonds
-Izzy draws 6 of Diamonds
-Izzy draws 6 of Spades
-Izzy books the 6
-Izzy draws 3 of Clubs
-Izzy draws 8 of Diamonds
+Izzy books the Jack
 
 Izzy currently has 1 books:
-6 of Diamonds and 6 of Spades
+Jack of Clubs and Jack of Diamonds
 
 -------------------------------------
 
 Anisa's turn.
-Anisa: Izzy, do you have a 6?
+Anisa: Izzy, do you have a 2?
 Izzy: Go Fish
-Anisa draws 6 of Hearts
+Anisa draws 7 of Spades
+
+Izzy's turn.
+Izzy: Anisa, do you have a 4?
+Anisa: Go Fish
+Izzy draws 3 of Diamonds
+
+Anisa's turn.
+Anisa: Izzy, do you have a 8?
+Izzy: Go Fish
+Anisa draws 6 of Spades
 Anisa books the 6
 
 Izzy's turn.
-Izzy: Anisa, do you have a 8?
+Izzy: Anisa, do you have a 3?
 Anisa: Go Fish
 Izzy draws King of Diamonds
 
 Anisa's turn.
-Anisa: Izzy, do you have a 10?
-Izzy: Yes, I have a 10
-Anisa books the 10
+Anisa: Izzy, do you have a 7?
+Izzy: Yes, I have a 7
+Anisa books the 7
 
 Anisa's turn.
-Anisa: Izzy, do you have a 9?
+Anisa: Izzy, do you have a 2?
 Izzy: Go Fish
-Anisa draws 5 of Hearts
-
-Izzy's turn.
-Izzy: Anisa, do you have a King?
-Anisa: Go Fish
-Izzy draws 8 of Spades
-Izzy books the 8
-
-Anisa's turn.
-Anisa: Izzy, do you have a 9?
-Izzy: Go Fish
-Anisa draws 9 of Spades
-Anisa books the 9
-
-Izzy's turn.
-Izzy: Anisa, do you have a 7?
-Anisa: Go Fish
-Izzy draws 9 of Clubs
-
-Anisa's turn.
-Anisa: Izzy, do you have a 5?
-Izzy: Go Fish
-Anisa draws King of Spades
-
-Izzy's turn.
-Izzy: Anisa, do you have a 9?
-Anisa: Go Fish
-Izzy draws 3 of Hearts
-Izzy books the 3
-
-Anisa's turn.
-Anisa: Izzy, do you have a King?
-Izzy: Yes, I have a King
-Anisa books the King
-
-Anisa's turn.
-Anisa: Izzy, do you have a 5?
-Izzy: Go Fish
-Anisa draws Jack of Hearts
-
-Izzy's turn.
-Izzy: Anisa, do you have a 9?
-Anisa: Go Fish
-Izzy draws King of Hearts
-
-Anisa's turn.
-Anisa: Izzy, do you have a 5?
-Izzy: Go Fish
-Anisa draws Jack of Clubs
-Anisa books the Jack
-
-Izzy's turn.
-Izzy: Anisa, do you have a 9?
-Anisa: Go Fish
-Izzy draws 4 of Diamonds
-
-Anisa's turn.
-Anisa: Izzy, do you have a 5?
-Izzy: Go Fish
-Anisa draws 3 of Diamonds
-
-Izzy's turn.
-Izzy: Anisa, do you have a King?
-Anisa: Go Fish
-Izzy draws 4 of Spades
-Izzy books the 4
-
-Anisa's turn.
-Anisa: Izzy, do you have a 3?
-Izzy: Go Fish
-Anisa draws Ace of Diamonds
-
-Izzy's turn.
-Izzy: Anisa, do you have a 7?
-Anisa: Go Fish
-Izzy draws 5 of Clubs
-
-Anisa's turn.
-Anisa: Izzy, do you have a 3?
-Izzy: Go Fish
-Anisa draws Queen of Diamonds
-
-Izzy's turn.
-Izzy: Anisa, do you have a Jack?
-Anisa: Go Fish
-Izzy draws 9 of Hearts
-Izzy books the 9
-
-Anisa's turn.
-Anisa: Izzy, do you have a 5?
-Izzy: Yes, I have a 5
-Anisa books the 5
-
-Anisa's turn.
-Anisa: Izzy, do you have a 3?
-Izzy: Go Fish
-Anisa draws 8 of Hearts
-
-Izzy's turn.
-Izzy: Anisa, do you have a 7?
-Anisa: Go Fish
-Izzy draws Ace of Spades
-
-Anisa's turn.
-Anisa: Izzy, do you have a 8?
-Izzy: Go Fish
-Anisa draws 4 of Clubs
-
-Izzy's turn.
-Izzy: Anisa, do you have a Jack?
-Anisa: Go Fish
-Izzy draws Ace of Clubs
-Izzy books the Ace
-
-Anisa's turn.
-Anisa: Izzy, do you have a Queen?
-Izzy: Go Fish
-Anisa draws 2 of Spades
-
-Izzy's turn.
-Izzy: Anisa, do you have a Jack?
-Anisa: Go Fish
-Izzy draws Queen of Spades
-
-Anisa's turn.
-Anisa: Izzy, do you have a Ace?
-Izzy: Go Fish
-Anisa draws 10 of Diamonds
-
-Izzy's turn.
-Izzy: Anisa, do you have a 7?
-Anisa: Go Fish
-Izzy draws 7 of Spades
-Izzy books the 7
-
-Anisa's turn.
-Anisa: Izzy, do you have a 10?
-Izzy: Go Fish
-Anisa draws Queen of Hearts
-Anisa books the Queen
-
-Izzy's turn.
-Izzy: Anisa, do you have a Jack?
-Anisa: Go Fish
-Izzy draws 10 of Spades
-
-Anisa's turn.
-Anisa: Izzy, do you have a 3?
-Izzy: Go Fish
-Anisa draws Queen of Clubs
-
-Izzy's turn.
-Izzy: Anisa, do you have a Queen?
-Anisa: Yes, I have a Queen
-Izzy books the Queen
-
-Izzy's turn.
-Izzy: Anisa, do you have a 10?
-Anisa: Yes, I have a 10
-Izzy books the 10
-
-Izzy's turn.
-Izzy: Anisa, do you have a Jack?
-Anisa: Go Fish
-Izzy draws 3 of Spades
-
-Anisa's turn.
-Anisa: Izzy, do you have a 4?
-Izzy: Go Fish
-Anisa draws 2 of Diamonds
-Anisa books the 2
-
-Izzy's turn.
-Izzy: Anisa, do you have a Jack?
-Anisa: Go Fish
-Izzy draws 5 of Diamonds
-
-Anisa's turn.
-Anisa: Izzy, do you have a Ace?
-Izzy: Go Fish
-Anisa draws 5 of Spades
-
-Izzy's turn.
-Izzy: Anisa, do you have a King?
-Anisa: Go Fish
-Izzy draws 4 of Hearts
-
-Anisa's turn.
-Anisa: Izzy, do you have a 5?
-Izzy: Yes, I have a 5
-Anisa books the 5
-
-Anisa's turn.
-Anisa: Izzy, do you have a 8?
-Izzy: Go Fish
-Anisa draws King of Clubs
+Anisa draws 9 of Hearts
 
 Izzy's turn.
 Izzy: Anisa, do you have a 3?
-Anisa: Yes, I have a 3
-Izzy books the 3
+Anisa: Go Fish
+Izzy draws Ace of Clubs
+
+Anisa's turn.
+Anisa: Izzy, do you have a 8?
+Izzy: Go Fish
+Anisa draws 3 of Spades
+
+Izzy's turn.
+Izzy: Anisa, do you have a 4?
+Anisa: Go Fish
+Izzy draws Queen of Hearts
+Izzy books the Queen
+
+Anisa's turn.
+Anisa: Izzy, do you have a 8?
+Izzy: Go Fish
+Anisa draws 4 of Diamonds
+
+Izzy's turn.
+Izzy: Anisa, do you have a 9?
+Anisa: Yes, I have a 9
+Izzy books the 9
 
 Izzy's turn.
 Izzy: Anisa, do you have a 4?
@@ -256,9 +90,160 @@ Anisa: Yes, I have a 4
 Izzy books the 4
 
 Izzy's turn.
-Izzy: Anisa, do you have a Jack?
+Izzy: Anisa, do you have a 10?
+Anisa: Yes, I have a 10
+Izzy books the 10
+
+Izzy's turn.
+Izzy: Anisa, do you have a Ace?
 Anisa: Go Fish
-Izzy draws 8 of Clubs
+Izzy draws Jack of Spades
+
+Anisa's turn.
+Anisa: Izzy, do you have a 2?
+Izzy: Go Fish
+Anisa draws 5 of Hearts
+
+Izzy's turn.
+Izzy: Anisa, do you have a Ace?
+Anisa: Go Fish
+Izzy draws 9 of Diamonds
+
+Anisa's turn.
+Anisa: Izzy, do you have a Jack?
+Izzy: Yes, I have a Jack
+Anisa books the Jack
+
+Anisa's turn.
+Anisa: Izzy, do you have a 3?
+Izzy: Yes, I have a 3
+Anisa books the 3
+
+Anisa's turn.
+Anisa: Izzy, do you have a 8?
+Izzy: Go Fish
+Anisa draws Ace of Spades
+
+Izzy's turn.
+Izzy: Anisa, do you have a King?
+Anisa: Go Fish
+Izzy draws 8 of Hearts
+
+Anisa's turn.
+Anisa: Izzy, do you have a 2?
+Izzy: Go Fish
+Anisa draws Queen of Clubs
+
+Izzy's turn.
+Izzy: Anisa, do you have a 8?
+Anisa: Yes, I have a 8
+Izzy books the 8
+
+Izzy's turn.
+Izzy: Anisa, do you have a Ace?
+Anisa: Yes, I have a Ace
+Izzy books the Ace
+
+Izzy's turn.
+Izzy: Anisa, do you have a 9?
+Anisa: Go Fish
+Izzy draws 6 of Clubs
+
+Anisa's turn.
+Anisa: Izzy, do you have a Queen?
+Izzy: Go Fish
+Anisa draws 2 of Hearts
+Anisa books the 2
+
+Izzy's turn.
+Izzy: Anisa, do you have a 9?
+Anisa: Go Fish
+Izzy draws 10 of Spades
+
+Anisa's turn.
+Anisa: Izzy, do you have a 5?
+Izzy: Go Fish
+Anisa draws 8 of Clubs
+
+Izzy's turn.
+Izzy: Anisa, do you have a 10?
+Anisa: Go Fish
+Izzy draws 9 of Clubs
+Izzy books the 9
+
+Anisa's turn.
+Anisa: Izzy, do you have a Queen?
+Izzy: Go Fish
+Anisa draws 5 of Spades
+Anisa books the 5
+
+Izzy's turn.
+Izzy: Anisa, do you have a 6?
+Anisa: Go Fish
+Izzy draws 5 of Diamonds
+
+Anisa's turn.
+Anisa: Izzy, do you have a 8?
+Izzy: Go Fish
+Anisa draws Ace of Diamonds
+
+Izzy's turn.
+Izzy: Anisa, do you have a 5?
+Anisa: Go Fish
+Izzy draws 8 of Spades
+
+Anisa's turn.
+Anisa: Izzy, do you have a 8?
+Izzy: Yes, I have a 8
+Anisa books the 8
+
+Anisa's turn.
+Anisa: Izzy, do you have a Queen?
+Izzy: Go Fish
+Anisa draws 7 of Diamonds
+
+Izzy's turn.
+Izzy: Anisa, do you have a King?
+Anisa: Go Fish
+Izzy draws 10 of Clubs
+Izzy books the 10
+
+Anisa's turn.
+Anisa: Izzy, do you have a Ace?
+Izzy: Go Fish
+Anisa draws 6 of Hearts
+
+Izzy's turn.
+Izzy: Anisa, do you have a King?
+Anisa: Go Fish
+Izzy draws 3 of Clubs
+
+Anisa's turn.
+Anisa: Izzy, do you have a Queen?
+Izzy: Go Fish
+Anisa draws 2 of Diamonds
+
+Izzy's turn.
+Izzy: Anisa, do you have a 3?
+Anisa: Go Fish
+Izzy draws 7 of Hearts
+
+Anisa's turn.
+Anisa: Izzy, do you have a 2?
+Izzy: Go Fish
+Anisa draws 2 of Clubs
+Anisa books the 2
+
+Izzy's turn.
+Izzy: Anisa, do you have a 6?
+Anisa: Yes, I have a 6
+Izzy books the 6
+
+Izzy's turn.
+Izzy: Anisa, do you have a King?
+Anisa: Go Fish
+Izzy draws 3 of Hearts
+Izzy books the 3
 
 Anisa's turn.
 Anisa: Izzy, do you have a Ace?
@@ -267,63 +252,80 @@ Anisa draws Ace of Hearts
 Anisa books the Ace
 
 Izzy's turn.
-Izzy: Anisa, do you have a Jack?
+Izzy: Anisa, do you have a 5?
 Anisa: Go Fish
-Izzy draws Jack of Spades
-Izzy books the Jack
+Izzy draws King of Clubs
+Izzy books the King
 
 Anisa's turn.
-Anisa: Izzy, do you have a King?
-Izzy: Yes, I have a King
-Anisa books the King
+Anisa: Izzy, do you have a Queen?
+Izzy: Go Fish
+Anisa draws 5 of Clubs
 
-Anisa's turn.
-Anisa: Izzy, do you have a 8?
-Izzy: Yes, I have a 8
-Anisa books the 8
+Izzy's turn.
+Izzy: Anisa, do you have a 7?
+Anisa: Yes, I have a 7
+Izzy books the 7
+
+Izzy's turn.
+Izzy: Anisa, do you have a 5?
+Anisa: Yes, I have a 5
+Izzy books the 5
 Izzy has no cards left in hand.
+Izzy draws Queen of Spades
+
+Izzy's turn.
+Izzy: Anisa, do you have a Queen?
+Anisa: Yes, I have a Queen
+Izzy books the Queen
 Anisa has no cards left in hand.
+Anisa draws King of Spades
+Izzy has no cards left in hand.
+Izzy draws King of Hearts
+
+Izzy's turn.
+Izzy: Anisa, do you have a King?
+Anisa: Yes, I have a King
+Izzy books the King
+Anisa has no cards left in hand.
+Izzy has no cards left in hand.
 
 DECK HAS RUN OUT OF CARDS!
-ANISA'S HAND
-
-IZZY'S HAND
-
 
 ==============================================
 GAME OVER!!!
 ==============================================
 
 ANISA'S BOOK(S)
-14 books total
-7 of Clubs and 7 of Hearts
-2 of Clubs and 2 of Hearts
-6 of Clubs and 6 of Hearts
-10 of Hearts and 10 of Clubs
-9 of Diamonds and 9 of Spades
-King of Spades and King of Diamonds
-Jack of Hearts and Jack of Clubs
-5 of Hearts and 5 of Clubs
-Queen of Diamonds and Queen of Hearts
-2 of Spades and 2 of Diamonds
-5 of Spades and 5 of Diamonds
+10 books total
+4 of Clubs and 4 of Spades
+6 of Diamonds and 6 of Spades
+7 of Spades and 7 of Clubs
+Jack of Hearts and Jack of Spades
+3 of Spades and 3 of Diamonds
+2 of Spades and 2 of Hearts
+5 of Hearts and 5 of Spades
+8 of Clubs and 8 of Spades
+2 of Diamonds and 2 of Clubs
 Ace of Diamonds and Ace of Hearts
-King of Clubs and King of Hearts
-8 of Hearts and 8 of Clubs
 
 IZZY'S BOOK(S)
-12 books total
-6 of Diamonds and 6 of Spades
-8 of Diamonds and 8 of Spades
+16 books total
+Jack of Clubs and Jack of Diamonds
+Queen of Diamonds and Queen of Hearts
+9 of Spades and 9 of Hearts
+4 of Hearts and 4 of Diamonds
+10 of Diamonds and 10 of Hearts
+8 of Hearts and 8 of Diamonds
+Ace of Clubs and Ace of Spades
+9 of Diamonds and 9 of Clubs
+10 of Spades and 10 of Clubs
+6 of Clubs and 6 of Hearts
 3 of Clubs and 3 of Hearts
-4 of Diamonds and 4 of Spades
-9 of Clubs and 9 of Hearts
-Ace of Spades and Ace of Clubs
-7 of Diamonds and 7 of Spades
+King of Diamonds and King of Clubs
+7 of Hearts and 7 of Diamonds
+5 of Diamonds and 5 of Clubs
 Queen of Spades and Queen of Clubs
-10 of Spades and 10 of Diamonds
-3 of Spades and 3 of Diamonds
-4 of Hearts and 4 of Clubs
-Jack of Diamonds and Jack of Spades
+King of Hearts and King of Spades
 
-Anisa WINS!!!
+Izzy WINS!!!

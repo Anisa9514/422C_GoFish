@@ -11,45 +11,72 @@ import java.io.PrintWriter;
  */
 public class GoFishGame{
 
-	private Deck goFishDeck = new Deck();
+	private Deck goFishDeck;
 	private ArrayList<Player> players = new ArrayList<Player>();
+
 	private int curIdx = 0;	// determines turns (index of current player in turn)
 	private int othIdx = 1; // determines turns (index of other player in turn )
+
+	// Output
 	File oFile = new File("go_fish_output.txt");
 	PrintWriter output;
 
 	/**
 	 * Creates a Go Fish Game assuming 2 players
 	 * Outputs each move to an external file called go_fish_output.txt
+	 * @param deck deck of cards
+	 * @param player1 first player
+	 * @param player2 second player
 	 */
-	public GoFishGame() throws FileNotFoundException {
-
-		output = new PrintWriter(oFile);
+	public GoFishGame(Deck deck, Player player1, Player player2){
+		
+		try{
+			output = new PrintWriter(oFile);
+		} catch (FileNotFoundException e){
+			System.out.println("File not found: " + e);
+		}
+		goFishDeck = deck;
+		players.add(player1);
+		players.add(player2);
 		init();
+	}
 
-		while(!((goFishDeck.deckSize() == 0) && 
+	/**
+	 * Executes Go Fish Game
+	 */
+	public void executeGame(){
+
+		while(! ((goFishDeck.deckSize() == 0) && 
 				(players.get(0).getHandSize() == 0) &&
-				(players.get(1).getHandSize() == 0)
-		)){
+				(players.get(1).getHandSize() == 0)) ){
+			// Establish current player and other player during this turn
 			Player curPlayer = players.get(curIdx);
 			Player otherPlayer = players.get(othIdx);	
 
 			output.println("");
 			output.println(curPlayer.getName() + "'s turn.");
+
 			if(curPlayer.getHandSize() == 0){
+				
+				// Current player has no cards left. He/She draws and moves on to next turn
 				output.println(curPlayer.getName() + " has no cards left in hand.");
 				drawCard(curPlayer);
 				swapPlayers();
 				continue;
-			}
-			else{
+
+			} else {
+
+				// Current player picks a random card from hand
 				Card cardFromHand = curPlayer.chooseCardFromHand();
 				int rankFromHand = cardFromHand.getRank();
 				output.println(curPlayer.getName() + ": " + otherPlayer.getName() 
 				+ ", do you have a " + cardFromHand.rankToString(rankFromHand) 
 				+ "?");
 
+				
 				if(otherPlayer.rankInHand(cardFromHand)){
+
+					// Other player has the card
 					output.println(otherPlayer.getName() + ": Yes, I have a " + cardFromHand.rankToString(rankFromHand));
 					Card c = new Card(otherPlayer.findCardInHand(cardFromHand.getRank()));
 					otherPlayer.removeCardFromHand(c);
@@ -57,26 +84,25 @@ public class GoFishGame{
 					curPlayer.checkHandForBook();
 					output.println(curPlayer.getName() + " books the " + c.rankToString(rankFromHand));
 
+					// Check to see if either hands are empty; if they are, draw a card
 					if(otherPlayer.getHandSize() == 0){
 						output.println(otherPlayer.getName() + " has no cards left in hand.");
 						drawCard(otherPlayer);
 					}
-					
 					if(curPlayer.getHandSize() == 0){
 						output.println(curPlayer.getName() + " has no cards left in hand.");
 						if(!drawCard(curPlayer)){
 							swapPlayers();
-							continue;
 						}
 					}
 
-					continue;
-				}
-				else{
+				} else {
+
+					// Other player does not have the card. Go Fish
 					output.println(otherPlayer.getName() + ": Go Fish");
 					drawCard(curPlayer);
 					swapPlayers();
-					continue;
+
 				}
 			}
 		}
@@ -84,7 +110,7 @@ public class GoFishGame{
 		// Both players check remaining hand for books
 		output.println("");
 		output.println("DECK HAS RUN OUT OF CARDS!");
-		printHands();
+
 		while(players.get(0).checkHandForBook()){};
 		while(players.get(1).checkHandForBook()){};
 		
@@ -110,14 +136,9 @@ public class GoFishGame{
 
 	/**
 	 * Initializes Go Fish Game
+	 * Shuffles deck, players draw cards
 	 */
 	private void init(){
-		// Initialize players
-		Player player1 = new Player("Anisa");
-		Player player2 = new Player("Izzy");
-		players.add(player1);
-		players.add(player2);
-
 		// Shuffle deck
 		goFishDeck.shuffle();
 
@@ -140,16 +161,22 @@ public class GoFishGame{
 
 	/**
 	 * Deals a card from the deck to the player
+	 * @param player player that draws a card
 	 * @return true if card was drawn successfully; false if deck is empty
 	 */
 	private boolean drawCard(Player player){
 		if(goFishDeck.deckSize() == 0){return false;}
 
+		// Draw card
 		Card c = new Card(goFishDeck.dealCard());
 		player.addCardToHand(c);
 		output.println(player.getName() + " draws " + c.toString());
+
+		// Check if draw creates a book
 		if(player.checkHandForBook()){
 			output.println(player.getName() + " books the " + c.rankToString(c.getRank()));
+
+			// If hand is empty, draw another card;
 			if(player.getHandSize() == 0){
 				output.println(player.getName() + " has no cards left in hand.");				
 				if(!drawCard(player)){return false;}
@@ -168,21 +195,7 @@ public class GoFishGame{
 	}
 
 	/**
-	 * Prints hands for both players
-	 * For debugging purposes
-	 */
-	private void printHands(){
-		output.println(players.get(0).getName().toUpperCase() + "'S HAND");
-		output.println(players.get(0).handToString());
-
-		output.println(players.get(1).getName().toUpperCase() + "'S HAND");
-		output.println(players.get(1).handToString());
-
-	}
-
-	/**
 	 * Prints books for both players
-	 * For debugging purposes
 	 */
 	private void printBooks(){
 		output.println(players.get(0).getName().toUpperCase() + "'S BOOK(S)");
@@ -193,4 +206,5 @@ public class GoFishGame{
 		output.println(players.get(1).getBookSize() + " books total");
 		output.println(players.get(1).bookToString());
 	}
+
 }

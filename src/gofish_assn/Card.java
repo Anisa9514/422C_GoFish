@@ -16,7 +16,7 @@ public class Card {
 	private Suits suit;
 	
 	/**
-	 * Constructor: Creates a new card in the deck
+	 * Creates a new card in the deck
 	 * Defaults to Ace of Clubs
 	 */
 	public Card() {
@@ -25,7 +25,7 @@ public class Card {
 	}
 	
 	/**
-	 * Constructor: Creates a new card in the deck
+	 * Creates a new card in the deck
 	 * @param r	rank/value of card as an integer
 	 * @param s 1st letter of the card suit (c,d,h,s)-using other letters may cause unexpected behavior
 	 */
@@ -36,7 +36,7 @@ public class Card {
 	}
 	
 	/**
-	 * Constructor: Creates a new card in the deck
+	 * Creates a new card in the deck
 	 * @param r rank/value of card as an integer
 	 * @param s card suit (inputted as: Card.Suits.CLUB/DIAMOND/HEART/SPADE)
 	 */
@@ -46,7 +46,7 @@ public class Card {
 	}
 
 	/**
-	 * Constructor: copies a card
+	 * Copies a card
 	 * @param c card
 	 */
 	public Card(Card c) {
@@ -55,11 +55,12 @@ public class Card {
 	}
 	
 	/**
-	 * Private function: convert suit character to Suits enum and returns the Suit
+	 * Convert suit character to Suits enum and returns the Suit
 	 * @param c 1st letter of the card suit (c,d,h,s)-using other letters may cause unexpected behavior
 	 * @return Card Suite
 	 */
-	private Suits charToSuit(char c) {
+	// changed to charToSuit: makes intended implementation clearer
+	private Suits charToSuit(char c) {	
 		Suits resultSuit = Suits.CLUB;
 		switch (Character.toUpperCase(c)){
 			case 'C':	resultSuit = Suits.CLUB;break;
@@ -71,13 +72,12 @@ public class Card {
 	}
 
 	/**
-	 * Public function: convert suit enum to Suit character and returns the Suit as a string
+	 * Convert suit enum to Suit character and returns the Suit as a string
 	 * @param s Card Suit
 	 * @return Card Suit as a string 
 	 */	
-	// converted to public function for main class to output to file	
-	public String suitToString(Suits s)
-	{
+	// converted to public function for GoFishGame class to output to file	
+	public String suitToString(Suits s) {
 		String result = "Club";
 		switch(s){
 			case CLUB: result = "Club"; break;
@@ -89,13 +89,12 @@ public class Card {
 	}
 
 	/**
-	 * Public function: convert rank/value of card to string
+	 * Convert rank/value of card to string
 	 * @param r rank/value of card as an integer
 	 * @return rank/value of card as a String
 	 */		
-	// converted to public function for main class to output to file
-	public String rankToString(int r)	
-	{
+	// converted to public function for GoFishGame class to output to file
+	public String rankToString(int r){
 		String result = "";
 		switch(r){
 			case 1: result = "Ace"; break;
@@ -108,7 +107,7 @@ public class Card {
 	}
 		
 	/**
-	 * Public Getter: returns rank/value of card as an integer
+	 * Returns rank/value of card as an integer
 	 * @return rank/value of card as integer
 	 */
 	public int getRank() {
@@ -116,7 +115,7 @@ public class Card {
 	}
 	
 	/**
-	 * Public Getter: returns suit of card as Suits enum
+	 * Returns suit of card as Suits enum
 	 * @return returns as Suit enum
 	 */
 	public Suits getSuit() {
@@ -124,7 +123,7 @@ public class Card {
 	}
 	
 	/**
-	 * Public Function: returns value and suit of card as String
+	 * Returns value and suit of card as String
 	 * @return rank of Suit
 	 */
 	public String toString() {
@@ -136,7 +135,7 @@ public class Card {
 	}
 
 	/**
-	 * Public function: determines if card is equal to another card
+	 * Determines if card is equal to another card
 	 * @param c card to compare
 	 * @return true if card is the same; false if card is different
 	 */
@@ -149,7 +148,7 @@ public class Card {
 	}
 
 	/**
-	 * Public function: determines if card has the same rank as another card
+	 * Determines if card has the same rank as another card
 	 * @param c card to compare
 	 * @return true if card has same rank; false otherwise
 	 */

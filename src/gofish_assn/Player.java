@@ -15,7 +15,7 @@ public class Player {
 	private String name;
 	
 	/**
-	 * Constructor: creates a new player in the game
+	 * Creates a new player in the game
 	 * @param name player's name
 	 */
 	public Player(String name) {
@@ -23,7 +23,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function: adds a card to the player's hand
+	 * Adds a card to the player's hand
 	 * @param c card added 
 	 */
 	public void addCardToHand(Card c) {
@@ -31,7 +31,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public Function: removes a card from hand
+	 * Removes a card from hand
 	 * @param c card to be removed; 
 	 * @return card that was removed; null if card is not in hand
 	 */
@@ -48,7 +48,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public Getter: returns player's name
+	 * Returns player's name
 	 * @return name
 	 */
 	public String getName() {
@@ -56,7 +56,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function: returns contents of hand as list
+	 * Returns contents of hand as list
 	 * @return string listing out cards in hand 
 	 */
 	public String handToString() {
@@ -68,7 +68,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function: return books as a list of pairs
+	 * Return books as a list of pairs
 	 * @return books in hand
 	 */
 	public String bookToString() {
@@ -81,7 +81,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function: return number cards in hand
+	 * Return number cards in hand
 	 * @return number of cards in hand
 	 */
 	public int getHandSize() {
@@ -89,7 +89,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function return number of books in hand
+	 * Return number of books in hand
 	 * @return number of books in hand (pairs of the same rank)
 	 */
 	public int getBookSize() {
@@ -97,7 +97,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function: check a player's hand for a pair
+	 * Check a player's hand for a pair
 	 * If a pair is found, it moves the cards to the book and returns true
 	 * @return true if a pair is found; false otherwise
 	 */
@@ -122,7 +122,7 @@ public class Player {
     }
 
 	/**
-	 * Public function: check for a rank in hand
+	 * Check for a rank in hand
 	 * @param c card to check
 	 * @return true if the same rank is found; false otherwise;
 	 */
@@ -135,7 +135,7 @@ public class Player {
 	}
 	
 	/**
-	 * Public function: find card in hand given rank
+	 * Find card in hand given rank
 	 * @param rank rank of card 
 	 * @return card with the rank; null if no card found
 	 */
@@ -165,7 +165,7 @@ public class Player {
     }
     
     /**
-	 * Public function: indicates if card is in player's hand
+	 * Indicates if card is in player's hand
 	 * @param c card
 	 * @return true if card is in hand/ false otherwise
 	 */
